@@ -1,0 +1,36 @@
+.menu-block
+  color: #272727
+  font-size: 14px
+  font-weight: 500
+  //height: 80px
+  padding-top: 33px
+  margin-bottom: 33px
+  .container-fluid
+    padding-left: 180px
+    padding-right: 180px
+    .menu-points
+      position: relative
+      &::after
+        content: ""
+        position: absolute
+        width: 6px
+        height: 6px
+        border-radius: 50%
+        top: 8px
+        right: -3px
+        background: #272727
+      &:last-child::after
+        content: ""
+        width: 0
+        height: 0
+    a
+      color: #272727
+      text-decoration: none
+      &:hover
+        border-bottom: 2px solid #649154
+        border-radius: 2px
+        transition: 0.3s ease
+
+
+.our-products
+  margin-bottom: 20px
