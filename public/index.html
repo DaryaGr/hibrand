@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"> <!-- TODO lang="ru" -->
 <head>
    <meta charset="UTF-8">
    <meta name="viewport"
          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"> <!-- TODO не использовать web-стили, обхединить в один файл -->
    <link rel="stylesheet" href="css/app.css">
    <title>HiBrand</title>
 </head>
@@ -18,6 +18,7 @@
                <a href="tel:+375297619370">+375 (29) 761 - 93 - 70</a>
             </div>
             <div class="col-9 text-right">
+
                <div class="lang">
                   <img src="/img/640px-flag_of_russia.png" alt="flag">
                   <a href="#">Russia</a>
@@ -53,6 +54,7 @@
             <div class="col-4 text-center">
                <a href="/"><img src="/img/logo2.png" alt="header"></a>
             </div>
+
             <div class="col-4 d-inline-block text-right shop">
                <a class="btn btn-primary">
                   <i class="fas fa-shopping-cart"></i>
@@ -60,6 +62,7 @@
                   <div class="number">0</div>
                </a>
             </div>
+
          </div>
       </div>
       <hr>
@@ -179,7 +182,7 @@
          <div class="row">
             <div class="col">
                <div class="row">
-                  <div class="col-lg-5 text-right"><img src="/img/bike.png" alt="about"></div>
+                  <div class="col-lg-5 text-right"><img src="/img/bike.png" alt="about"></div> <!-- TODO используй тут "img-fluid" чтобы картинка не залазила на текст -->
                   <div class="col-lg-7 item">
                      <p><span>Бесплатная доставка</span></p>
                      <p>При заказе от 20 BYN</p>
@@ -188,16 +191,16 @@
             </div>
             <div class="col">
                <div class="row ">
-                  <div class="col-lg-4 text-right"><img src="/img/vector.png" alt="about"></div>
+                  <div class="col-lg-4 text-right"><img src="/img/vector.png" alt="about"></div> <!-- TODO используй тут "img-fluid" чтобы картинка не залазила на текст -->
                   <div class="col-lg-8 item">
                      <p><span>Гарантия Качества</span></p>
                      <p>Возврат до 30 дней</p>
                   </div>
                </div>
             </div>
-            <div class="col">
+            <div class="col"> <!-- TODO убери в последнем блоке правый border -->
                <div class="row">
-                  <div class="col-lg-4 text-right"><img src="/img/support.png" alt="about"></div>
+                  <div class="col-lg-4 text-right"><img src="/img/support.png" alt="about"></div> <!-- TODO используй тут "img-fluid" чтобы картинка не залазила на текст -->
                   <div class="col-lg-8 item">
                      <p><span>Онлайн поддержка</span></p>
                      <p>Мы всегда рядом!</p>
@@ -247,30 +250,35 @@
          <div class="block">
             <h3># Заказ от 20 BYN за еденицу товара</h3>
             <div class="row">
+
                <div class="col-lg">
                   <div class="picture">
                      <img src="img/thumbs-2.png" alt="about-order">
                   </div>
                   <p>Лучшее качество печати</p>
                </div>
+
                <div class="col-lg">
                   <div class="picture">
                      <img src="img/stopwatch.png" alt="about-order">
                   </div>
                   <p>Максимально быстрое производство</p>
                </div>
+
                <div class="col-lg">
                   <div class="picture">
                      <img src="img/group2.png" alt="about-order">
                   </div>
                   <p>Печать на любой продукции</p>
                </div>
+
                <div class="col-lg">
                   <div class="picture">
                      <img src="img/group.png" alt="about-order">
                   </div>
                   <p>Самые низкие цены</p>
                </div>
+
             </div>
          </div>
 
@@ -301,9 +309,9 @@
       <div class="container-fluid">
          <div class="products">
             <div class="row">
-               <div class="col-lg">
-                  <div class="order-banner">
 
+               <div class="col-lg"> <!-- TODO карточка товара должна быть ссылкой. Также нужно сделать, чтобы при наведении появлялся нижний блок (как на макете) -->
+                  <div class="order-banner">
                         <div class="row justify-content-between first-row">
                            <div class="col-lg">
                               <p>New</p>
@@ -324,6 +332,7 @@
                         <p class="price text-center">20,50 - 25,50 BYN</p>
                   </div>
                </div>
+
                <div class="col-lg">
                   <div class="order-banner">
 
@@ -411,8 +420,8 @@
       <div class="container-fluid">
          <div class="row no-gutters">
             <div class="col-lg video-bgr"></div>
-            <div class="col-lg text-center">
-               <div class="text">
+            <div class="col-lg text-center ">
+               <div class="text"> <!-- TODO текст в этом блоке должен быть выровнен по высоте (d-flex flex-column align-items-center justify-content-center) -->
                   <h2># Почему мы используем шелкографию</h2>
                   <p class="text-left">Яркость красок, долговечность, устойчивость к истиранию,
                      экономичность при печатании малых и средних тиражей,
@@ -429,9 +438,9 @@
       <div class="container-fluid">
          <h2># популярные товары</h2>
          <div class="row">
-            <div class="col-lg">
-               <div class="order-banner">
 
+            <div class="col-lg"> <!-- TODO карточка товара должна быть ссылкой. Также нужно сделать, чтобы при наведении появлялся нижний блок (как на макете) -->
+               <div class="order-banner">
                   <div class="row justify-content-between first-row">
                      <div class="col-lg">
                         <p>New</p>
@@ -452,6 +461,7 @@
                   <p class="price text-center">20,50 - 25,50 BYN</p>
                </div>
             </div>
+
             <div class="col-lg">
                <div class="order-banner">
 
@@ -594,7 +604,7 @@
                </div>
                <div class="col-lg-3">
                   <div class="form-group">
-                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="+375 (29) 123-45-67">
+                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="+375 (29) 123-45-67"> <!-- TODO не должно быть повторяющихся id на странице -->
                      <label for="exampleInputPassword1">Телефон</label>
                   </div>
                </div>
@@ -612,9 +622,6 @@
 
 
          </form>
-
-
-
 
       </div>
    </div>
