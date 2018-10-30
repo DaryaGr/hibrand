@@ -1,3 +1,4 @@
+
 .example-of-product
   margin-bottom: 30px
   h3
@@ -26,7 +27,6 @@
       background-size: cover
       height: 400px
       padding: 40px
-
 
 //Стили к карточке с продуктом
 
@@ -93,18 +93,28 @@
     a
       color: #272727
 
-
 .our-products
   .products
+    height: 350px
+
+    @media screen and (max-width: 1080px)
+      height: auto
+
+
     .order-banner
+      background: #ffffff
+      position: relative
+      z-index: 10
       padding: 20px
       height: auto
       border: 2px solid #D8D8D8
       margin-bottom: 80px
+
       &:hover
         border: 2px solid #272727
         transition: ease 0.3s
         height: auto
+
       .first-row
         p
           font-weight: bold
@@ -118,14 +128,21 @@
             transition: ease 0.3s
         .green
           color: #649154
+
       .hover-block
-        display: none
+        background: #ffffff
+        opacity: 0
+        height: 0
+        transition: ease 0.3s
+
         .sizes
           padding-top: 20px
+
         .color
           padding-top: 20px
           padding-bottom: 20px
           font-weight: bold
+
           .black
             width: 15px
             height: 15px
@@ -154,8 +171,13 @@
   a
     color: #000
   .order-banner:hover .hover-block
-    display: block
-    transition: ease 0.3s
+    opacity: 1
+    height: 140px
+    position: relative
+    background: #ffffff
+    z-index: 1000
+
+
   .btn
     text-transform: uppercase
     font-weight: bold

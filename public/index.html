@@ -1,954 +1,1005 @@
 <!doctype html>
 <html lang="ru">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport"
-         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-   <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"> &lt;!&ndash; TODO не использовать web-стили, обхединить в один файл &ndash;&gt;-->
-   <link rel="stylesheet" href="css/app.css">
-   <title>HiBrand</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>HiBrand</title>
 </head>
+
 <body>
-   <div class="header">
-      <div class="container-fluid">
-         <div class="row justify-content-between">
+<div class="header">
+    <div class="container-fluid">
+        <div class="row justify-content-between">
             <div class="col-lg-3 number">
-               <a href="tel:+375297619370">+375 (29) 761 - 93 - 70</a>
+                <a href="tel:+375297619370">+375 (29) 761 - 93 - 70</a>
             </div>
             <div class="col-lg-9 items">
 
-               <div class="lang">
-                  <img src="/img/640px-flag_of_russia.png" alt="flag">
-                  <a href="#">Russia</a>
-               </div>
+                <div class="lang">
+                    <img src="/img/640px-flag_of_russia.png" alt="flag">
+                    <a href="#">Russia</a>
+                </div>
 
-               <div class="auth">
-                  <a href="#">Вход / Регистрация</a>
-               </div>
+                <div class="auth">
+                    <a href="#">Вход / Регистрация</a>
+                </div>
 
-               <div class="social">
-                  <a href="#"><i class="fab fa-facebook-square"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-vk"></i></a>
-               </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
-   <div class="logo-block">
-      <div class="container-fluid">
-         <div class="row align-items-center">
+<div class="logo-block">
+    <div class="container-fluid">
+        <div class="row align-items-center">
 
             <div class="col-sm">
-               <div class="search">
-                  <form action="search" method="get">
-                     <input type="search" placeholder="Search">
-                     <a href="#"><i class="fas fa-search"></i></a>
-                  </form>
-               </div>
+                <div class="search">
+                    <form action="search" method="get">
+                        <input type="search" placeholder="Search">
+                        <a href="#"><i class="fas fa-search"></i></a>
+                    </form>
+                </div>
             </div>
 
             <div class="col-sm text-center">
-               <a href="/"><img src="/img/logo2.png" alt="header"></a>
+                <a href="/"><img src="/img/logo2.png" alt="header"></a>
             </div>
 
             <div class="col-sm d-inline-block shop">
-               <a class="btn btn-primary">
-                  <i class="fas fa-shopping-cart"></i>
-                  <p>Корзина</p>
-                  <div class="number">0</div>
-               </a>
+                <a class="btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>Корзина</p>
+                    <div class="number">0</div>
+                </a>
             </div>
 
-         </div>
-      </div>
-      <hr>
-   </div>
+        </div>
+    </div>
+    <hr>
+</div>
 
-   <div class="menu-block">
-      <div class="container-fluid no-gutter">
-         <div class="row text-center d-flex align-items-center">
+<div class="menu-block">
+    <div class="container-fluid no-gutter">
+        <div class="row text-center d-flex align-items-center">
             <div class="col-sm menu-points">
-               <a href="#">О печати</a>
+                <a href="#">О печати</a>
             </div>
             <div class="col-sm menu-points">
-               <a href="#">Продукция</a>
+                <a href="#">Продукция</a>
             </div>
             <div class="col-sm menu-points">
-               <a href="#">Контакты</a>
+                <a href="#">Контакты</a>
             </div>
             <div class="col-sm menu-points">
-               <a href="#">Рассчет стоимости</a>
+                <a href="#">Рассчет стоимости</a>
             </div>
             <div class="col-sm menu-points">
-               <a href="#">Доставка</a>
+                <a href="#">Доставка</a>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
-   <div class="banner-block">
-      <div class="container-fluid">
-         <div class="row no-gutters justify-content-between">
+<div class="banner-block">
+    <div class="container-fluid">
+        <div class="row no-gutters justify-content-between">
             <div class="col-lg-8 bgr-banner">
 
-               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
 
-                        <div class="banner">
-                           <div class="row">
-                              <div class="col"><img src="img/logo.png" alt="logo"></div>
-                           </div>
+                            <div class="banner">
+                                <div class="row">
+                                    <div class="col"><img src="img/logo.png" alt="logo"></div>
+                                </div>
 
-                           <div class="buttons">
+                                <div class="buttons">
 
-                                 <a href="#" class="btn btn-secondary">Заказать</a>
+                                    <a href="#" class="btn btn-secondary">Заказать</a>
 
-                                 <a href="#" class="btn btn-secondary">Все товары</a>
-                           </div>
+                                    <a href="#" class="btn btn-secondary">Все товары</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
 
-                     <div class="carousel-item">
-                        <div class="banner">
-                           <div class="row">
-                              <div class="col"><img src="img/logo.png" alt="logo"></div>
-                           </div>
+                        <div class="carousel-item">
+                            <div class="banner">
+                                <div class="row">
+                                    <div class="col"><img src="img/logo.png" alt="logo"></div>
+                                </div>
 
-                           <div class="buttons">
+                                <div class="buttons">
 
-                              <a href="#" class="btn btn-secondary">Заказать</a>
+                                    <a href="#" class="btn btn-secondary">Заказать</a>
 
-                              <a href="#" class="btn btn-secondary">Все товары</a>
-                           </div>
+                                    <a href="#" class="btn btn-secondary">Все товары</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="banner">
-                           <div class="row">
-                              <div class="col"><img src="img/logo.png" alt="logo"></div>
-                           </div>
+                        <div class="carousel-item">
+                            <div class="banner">
+                                <div class="row">
+                                    <div class="col"><img src="img/logo.png" alt="logo"></div>
+                                </div>
 
-                           <div class="buttons">
+                                <div class="buttons">
 
-                              <a href="#" class="btn btn-secondary">Заказать</a>
+                                    <a href="#" class="btn btn-secondary">Заказать</a>
 
-                              <a href="#" class="btn btn-secondary">Все товары</a>
-                           </div>
+                                    <a href="#" class="btn btn-secondary">Все товары</a>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
+                    </div>
 
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                     <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="sr-only">Next</span>
-                  </a>
-               </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
 
             </div>
-
-
 
 
             <div class="col-lg-4 order-banner text-center">
-               <div class="cart">
-                  <img src="photo-products/blacktshirt.png" alt="tshirt">
-                  <p class="name">Мужская футболка с логотипом Be Great</p>
-                  <div class="stars">
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="fas fa-star"></i>
-                     <i class="far fa-star"></i>
-                     <i class="far fa-star"></i>
-                  </div>
-                  <p class="price">20,50 BYN</p>
+                <div class="cart">
+                    <img src="photo-products/blacktshirt.png" alt="tshirt">
+                    <p class="name">Мужская футболка с логотипом Be Great</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p class="price">20,50 BYN</p>
 
-                  <div class="row justify-content-between add-btn">
-                     <div class="col-lg-3 d-block m-auto columns">
-                        <div class="number">
-                           <a href="#">-</a>
-                           10
-                           <a href="#">+</a>
+                    <div class="row justify-content-between add-btn">
+                        <div class="col-lg-3 d-block m-auto columns">
+                            <div class="number">
+                                <a href="#">-</a>
+                                10
+                                <a href="#">+</a>
+                            </div>
+
                         </div>
+                        <div class="col-lg-8 columns">
+                            <a class="btn btn-primary">Добавить в корзину</a>
+                        </div>
+                    </div>
 
-                     </div>
-                     <div class="col-lg-8 columns">
-                        <a class="btn btn-primary">Добавить в корзину</a>
-                     </div>
-                  </div>
-
-                  <div class="sizes">
-                     <span>Размер:</span>
-                     <a href="#">XS</a>
-                     <a href="#">M</a>
-                     <a href="#">L</a>
-                     <a href="#">XL</a>
-                  </div>
-               </div>
+                    <div class="sizes">
+                        <span>Размер:</span>
+                        <a href="#">XS</a>
+                        <a href="#">M</a>
+                        <a href="#">L</a>
+                        <a href="#">XL</a>
+                    </div>
+                </div>
 
             </div>
-         </div>
-      </div>
-   </div>
-   
-   <div class="about-us">
-      <div class="container-fluid">
-         <div class="row">
+        </div>
+    </div>
+</div>
+
+<div class="about-us">
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-lg one-block">
-               <div class="row align-items-center">
-                  <div class="col-lg-5 img-fluid"><img src="/img/bike.png" alt="about"></div>
-                  <div class="col-lg-7 item">
-                     <p><span>Бесплатная доставка</span></p>
-                     <p>При заказе от 20 BYN</p>
-                  </div>
-               </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 img-fluid"><img src="/img/bike.png" alt="about"></div>
+                    <div class="col-lg-7 item">
+                        <p><span>Бесплатная доставка</span></p>
+                        <p>При заказе от 20 BYN</p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg one-block">
-               <div class="row">
-                  <div class="col-lg-4 img-fluid"><img src="/img/vector.png" alt="about"></div>
-                  <div class="col-lg-8 item">
-                     <p><span>Гарантия Качества</span></p>
-                     <p>Возврат до 30 дней</p>
-                  </div>
-               </div>
+                <div class="row">
+                    <div class="col-lg-4 img-fluid"><img src="/img/vector.png" alt="about"></div>
+                    <div class="col-lg-8 item">
+                        <p><span>Гарантия Качества</span></p>
+                        <p>Возврат до 30 дней</p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg one-block"> <!-- TODO убери в последнем блоке правый border -->
-               <div class="row align-items-center">
-                  <div class="col-lg-4 img-fluid"><img src="/img/support.png" alt="about"></div>
-                  <div class="col-lg-8 item">
-                     <p><span>Онлайн поддержка</span></p>
-                     <p>Мы всегда рядом!</p>
-                  </div>
-               </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-4 img-fluid"><img src="/img/support.png" alt="about"></div>
+                    <div class="col-lg-8 item">
+                        <p><span>Онлайн поддержка</span></p>
+                        <p>Мы всегда рядом!</p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
 
-
-   <div class="example-of-product">
-      <div class="container-fluid">
-         <div class="row no-gutters">
+<div class="example-of-product">
+    <div class="container-fluid">
+        <div class="row no-gutters">
             <div class="col-lg-5">
-               <div class="black-b">
-                  <h3>Черная байка</h3>
-                  <div class="items">
-                     <p><i class="fas fa-check"></i> Состав: 100% хлопок</p>
-                     <p><i class="fas fa-check"></i> Плотность: 170-180 г/м</p>
-                     <p><i class="fas fa-check"></i> Размер: S  M  L  XL  XXL  XXXL</p>
-                  </div>
+                <div class="black-b">
+                    <h3>Черная байка</h3>
+                    <div class="items">
+                        <p><i class="fas fa-check"></i> Состав: 100% хлопок</p>
+                        <p><i class="fas fa-check"></i> Плотность: 170-180 г/м</p>
+                        <p><i class="fas fa-check"></i> Размер: S M L XL XXL XXXL</p>
+                    </div>
 
-                  <a href="#" class="btn btn-secondary">Заказать</a>
-               </div>
+                    <a href="#" class="btn btn-secondary">Заказать</a>
+                </div>
             </div>
             <div class="col-lg-7 bgr-product">
-               <div class="white-tshirt">
-                  <h3>Белая футболка</h3>
-                  <div class="items">
-                     <p><i class="fas fa-check"></i> Состав: 100% хлопок</p>
-                     <p><i class="fas fa-check"></i> Плотность: 170-180 г/м</p>
-                     <p><i class="fas fa-check"></i> Размер: S  M  L  XL  XXL  XXXL</p>
-                  </div>
-                  <a href="#" class="btn btn-secondary">Заказать</a>
-               </div>
+                <div class="white-tshirt">
+                    <h3>Белая футболка</h3>
+                    <div class="items">
+                        <p><i class="fas fa-check"></i> Состав: 100% хлопок</p>
+                        <p><i class="fas fa-check"></i> Плотность: 170-180 г/м</p>
+                        <p><i class="fas fa-check"></i> Размер: S M L XL XXL XXXL</p>
+                    </div>
+                    <a href="#" class="btn btn-secondary">Заказать</a>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
 
-
-   <div class="about-order">
-      <div class="container-fluid text-center">
-         <div class="block">
+<div class="about-order">
+    <div class="container-fluid text-center">
+        <div class="block">
             <h3># Заказ от 20 BYN за еденицу товара</h3>
             <div class="row">
 
-               <div class="col-lg one-block">
-                  <div class="picture">
-                     <img src="img/thumbs-2.png" alt="about-order">
-                  </div>
-                  <p>Лучшее качество печати</p>
-               </div>
+                <div class="col-lg one-block">
+                    <div class="picture">
+                        <img src="img/thumbs-2.png" alt="about-order">
+                    </div>
+                    <p>Лучшее качество печати</p>
+                </div>
 
-               <div class="col-lg one-block">
-                  <div class="picture">
-                     <img src="img/stopwatch.png" alt="about-order">
-                  </div>
-                  <p>Максимально быстрое производство</p>
-               </div>
+                <div class="col-lg one-block">
+                    <div class="picture">
+                        <img src="img/stopwatch.png" alt="about-order">
+                    </div>
+                    <p>Максимально быстрое производство</p>
+                </div>
 
-               <div class="col-lg one-block">
-                  <div class="picture">
-                     <img src="img/group2.png" alt="about-order">
-                  </div>
-                  <p>Печать на любой продукции</p>
-               </div>
+                <div class="col-lg one-block">
+                    <div class="picture">
+                        <img src="img/group2.png" alt="about-order">
+                    </div>
+                    <p>Печать на любой продукции</p>
+                </div>
 
-               <div class="col-lg one-block">
-                  <div class="picture">
-                     <img src="img/group.png" alt="about-order">
-                  </div>
-                  <p>Самые низкие цены</p>
-               </div>
+                <div class="col-lg one-block">
+                    <div class="picture">
+                        <img src="img/group.png" alt="about-order">
+                    </div>
+                    <p>Самые низкие цены</p>
+                </div>
 
             </div>
-         </div>
+        </div>
 
-      </div>
-   </div>
+    </div>
+</div>
 
 
-   <div class="our-products">
-      <div class="menu-block">
-         <div class="container-fluid no-gutter">
+<div class="our-products">
+    <div class="menu-block">
+        <div class="container-fluid no-gutter">
             <h2># Наша продукция</h2>
             <div class="row text-center justify-content-center">
-               <div class="col-lg-2 col-sm col-6 menu-points">
-                  <a href="#">Толстовки</a>
-               </div>
-               <div class="col-lg-2 col-sm col-6 menu-points">
-                  <a href="#">Майки</a>
-               </div>
-               <div class="col-lg-2 col-sm col-6 menu-points">
-                  <a href="#">Футболки</a>
-               </div>
-               <div class="col-lg-2 col-sm col-6 menu-points">
-                  <a href="#">Все товары</a>
-               </div>
+                <div class="col-lg-2 col-sm col-6 menu-points">
+                    <a href="#">Толстовки</a>
+                </div>
+                <div class="col-lg-2 col-sm col-6 menu-points">
+                    <a href="#">Майки</a>
+                </div>
+                <div class="col-lg-2 col-sm col-6 menu-points">
+                    <a href="#">Футболки</a>
+                </div>
+                <div class="col-lg-2 col-sm col-6 menu-points">
+                    <a href="#">Все товары</a>
+                </div>
             </div>
-         </div>
-      </div>
-      <div class="container-fluid">
-         <div class="products">
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="products">
             <div class="row">
 
-               <div class="col-lg col-sm-6">
-                  <a href="#" id="one-cart">
-                      <div class="order-banner">
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
-                        </div>
-                        <img src="photo-products/blacktshirt.png" alt="tshirt">
-                        <p class="name text-center">Мужская футболка</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">20,50 - 25,50 BYN</p>
-                         <div class="hover-block">
-                            <div class="row sizes text-center justify-content-center">
-                               <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                               <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                               <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                               <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#" id="one-cart">
+                        <div class="order-banner">
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
                             </div>
-                            <div class="row color justify-content-center text-center">
-                               <div class="col-2">Цвет</div>
-                               <div class="col-1">
-                                  <a href="#"><div class="black"></div></a>
-                               </div>
-                               <div class="col-1">
-                                  <a href="#"><div class="blue"></div></a>
-                               </div>
-                               <div class="col-1">
-                                  <a href="#"><div class="grey"></div></a>
-                               </div>
-                               <div class="col-1">
-                                  <a href="#"><div class="white"></div></a>
-                               </div>
+                            <img src="photo-products/blacktshirt.png" alt="tshirt">
+                            <p class="name text-center">Мужская футболка</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
                             </div>
-                            <div class="row add-btn2">
-                               <div class="col text-center">
-                                  <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                               </div>
+                            <p class="price text-center">20,50 - 25,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
+
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/hoodie.png" alt="tshirt">
+                            <p class="name text-center">Толстовка синяя</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">20,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
+
                             </div>
 
-                         </div>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
-
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
                         </div>
-                        <img src="photo-products/hoodie.png" alt="tshirt">
-                        <p class="name text-center">Толстовка синяя</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">20,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
 
-                        </div>
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/gray_h.png" alt="tshirt">
+                            <p class="name text-center">Толстовка с логотипом</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">22,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
 
-                     </div>
-                  </a>
-               </div>
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
-
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
-                        </div>
-                        <img src="photo-products/gray_h.png" alt="tshirt">
-                        <p class="name text-center">Толстовка с логотипом</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="far fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">22,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
+                            </div>
 
                         </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
 
-                     </div>
-                  </a>
-               </div>
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/tolstovka.black.png" alt="tshirt">
+                            <p class="name text-center">Толстовка с логотипом</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">35,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
 
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
+                            </div>
+
+
                         </div>
-                        <img src="photo-products/tolstovka.black.png" alt="tshirt">
-                        <p class="name text-center">Толстовка с логотипом</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">35,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
-
-                        </div>
-
-
-                     </div>
-                  </a>
-               </div>
+                    </a>
+                </div>
             </div>
-         </div>
-         <div class="row">
+        </div>
+        <div class="row">
             <div class="col-lg text-center">
-               <a href="#" class="btn btn-primary">Смотреть больше</a>
+                <a href="#" class="btn btn-primary">Смотреть больше</a>
             </div>
-         </div>
-      </div>
-   </div>
-   
-   <div class="order-call">
-      <div class="container-fluid">
-         <div class="row no-gutters">
+        </div>
+    </div>
+</div>
+
+<div class="order-call">
+    <div class="container-fluid">
+        <div class="row no-gutters">
             <div class="col-lg video-bgr"></div>
             <div class="col-lg text-center d-flex flex-column align-items-center justify-content-center">
-               <div class="text">
-                  <h2># Почему мы используем шелкографию</h2>
-                  <p>Яркость красок, долговечность, устойчивость к истиранию,
-                     экономичность при печатании малых и средних тиражей,
-                     возможность печатать на разных материалах, четкость и насыщенность оттиска.</p>
-                  <a href="#" class="btn btn-primary">Заказать звонок</a>
-               </div>
+                <div class="text">
+                    <h2># Почему мы используем шелкографию</h2>
+                    <p>Яркость красок, долговечность, устойчивость к истиранию,
+                        экономичность при печатании малых и средних тиражей,
+                        возможность печатать на разных материалах, четкость и насыщенность оттиска.</p>
+                    <a href="#" class="btn btn-primary">Заказать звонок</a>
+                </div>
 
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
-   <div class="our-products">
-      <div class="container-fluid">
-         <h2># популярные товары</h2>
-         <div class="products">
+<div class="our-products">
+    <div class="container-fluid">
+        <h2># популярные товары</h2>
+        <div class="products">
             <div class="row">
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/blacktshirt.png" alt="tshirt">
+                            <p class="name text-center">Мужская футболка с печатью</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">20,50 - 25,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                        <img src="photo-products/blacktshirt.png" alt="tshirt">
-                        <p class="name text-center">Мужская футболка с печатью</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">20,50 - 25,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
+
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="fas fa-heart green"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/muzhskaya-futbolka-salatovaya-1025.png" alt="tshirt">
+                            <p class="name text-center">Футболка зеленая</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">20,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
+
+                            </div>
 
                         </div>
-                     </div>
-                  </a>
-               </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
 
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/tolstovka-s-kapushonom.png" alt="tshirt">
+                            <p class="name text-center">Толстовка синяя</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">22,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
 
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="fas fa-heart green"></i>
-                           </div>
+                            </div>
                         </div>
-                        <img src="photo-products/muzhskaya-futbolka-salatovaya-1025.png" alt="tshirt">
-                        <p class="name text-center">Футболка зеленая</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star-half-alt"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">20,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="order-banner">
 
-                        </div>
+                            <div class="row justify-content-between first-row">
+                                <div class="col">
+                                    <p>New</p>
+                                </div>
+                                <div class="col text-right">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                            <img src="photo-products/blackwtsh.png" alt="tshirt">
+                            <p class="name text-center">Майка черная</p>
+                            <div class="stars text-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="price text-center">35,50 BYN</p>
+                            <div class="hover-block">
+                                <div class="row sizes text-center justify-content-center">
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
+                                    <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
+                                </div>
+                                <div class="row color justify-content-center text-center">
+                                    <div class="col-2">Цвет</div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="black"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="blue"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="grey"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                        <a href="#">
+                                            <div class="white"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row add-btn2">
+                                    <div class="col text-center">
+                                        <a href="#" class="btn btn-primary">Добавить в корзину</a>
+                                    </div>
+                                </div>
 
-                     </div>
-                  </a>
-               </div>
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
-
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
+                            </div>
                         </div>
-                        <img src="photo-products/tolstovka-s-kapushonom.png" alt="tshirt">
-                        <p class="name text-center">Толстовка синяя</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="far fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">22,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
+                    </a>
 
-                        </div>
-                     </div>
-                  </a>
-               </div>
-               <div class="col-lg col-sm-6">
-                  <a href="#">
-                     <div class="order-banner">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                        <div class="row justify-content-between first-row">
-                           <div class="col">
-                              <p>New</p>
-                           </div>
-                           <div class="col text-right">
-                              <i class="far fa-heart"></i>
-                           </div>
-                        </div>
-                        <img src="photo-products/blackwtsh.png" alt="tshirt">
-                        <p class="name text-center">Майка черная</p>
-                        <div class="stars text-center">
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="fas fa-star"></i>
-                           <i class="far fa-star"></i>
-                        </div>
-                        <p class="price text-center">35,50 BYN</p>
-                        <div class="hover-block">
-                           <div class="row sizes text-center justify-content-center">
-                              <div class="col-2"><a class="btn btn-primary" href="#">XS</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">M</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">L</a></div>
-                              <div class="col-2"><a class="btn btn-primary" href="#">XL</a></div>
-                           </div>
-                           <div class="row color justify-content-center text-center">
-                              <div class="col-2">Цвет</div>
-                              <div class="col-1">
-                                 <a href="#"><div class="black"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="blue"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="grey"></div></a>
-                              </div>
-                              <div class="col-1">
-                                 <a href="#"><div class="white"></div></a>
-                              </div>
-                           </div>
-                           <div class="row add-btn2">
-                              <div class="col text-center">
-                                 <a href="#" class="btn btn-primary">Добавить в корзину</a>
-                              </div>
-                           </div>
-
-                        </div>
-                     </div>
-                  </a>
-
-               </div>
-           </div>
-         </div>
-      </div>
-   </div>
-
-   <div class="about-delivery">
-      <div class="container-fluid">
-         <div class="block">
+<div class="about-delivery">
+    <div class="container-fluid">
+        <div class="block">
             <h3># доставка и оплата</h3>
             <p class="name text-center">Порядок оплаты</p>
             <div class="row text-center items justify-content-between">
-               <div class="col-lg col-sm-6 one-block">
-                  <div class="row justify-content-center">
-                     <div class="col-1 left-border"></div>
-                     <div class="col-7 text">
-                        <p class="text-1">При заказе 10 шт</p>
-                        <p class="text-2">Без предоплаты</p>
-                     </div>
-                     <div class="col-1 right-border"></div>
-                  </div>
-               </div>
-               <div class="col-lg col-sm-6 one-block">
-                  <div class="row justify-content-center">
-                     <div class="col-1 left-border"></div>
-                     <div class="col-7 text">
-                        <p class="text-1">При заказе от 10 шт</p>
-                        <p class="text-2">Предоплата 10%</p>
-                     </div>
-                     <div class="col-1 right-border"></div>
-                  </div>
-               </div>
-               <div class="col-lg col-sm-6 one-block">
-                  <div class="row justify-content-center">
-                     <div class="col-1 left-border"></div>
-                     <div class="col-7 text">
-                        <p class="text-1">Доставка по Минску</p>
-                        <p class="text-2">Бесплатно</p>
-                     </div>
-                     <div class="col-1 right-border"></div>
-                  </div>
-               </div>
-               <div class="col-lg col-sm-6 one-block">
-                  <div class="row justify-content-center">
-                     <div class="col-1 left-border"></div>
-                     <div class="col-7 text">
-                        <p class="text-1">Доставка по РБ</p>
-                        <p class="text-2">Курьерской службой</p>
-                     </div>
-                     <div class="col-1 right-border"></div>
-                  </div>
-               </div>
+                <div class="col-lg col-sm-6 one-block">
+                    <div class="row justify-content-center">
+                        <div class="col-1 left-border"></div>
+                        <div class="col-7 text">
+                            <p class="text-1">При заказе 10 шт</p>
+                            <p class="text-2">Без предоплаты</p>
+                        </div>
+                        <div class="col-1 right-border"></div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 one-block">
+                    <div class="row justify-content-center">
+                        <div class="col-1 left-border"></div>
+                        <div class="col-7 text">
+                            <p class="text-1">При заказе от 10 шт</p>
+                            <p class="text-2">Предоплата 10%</p>
+                        </div>
+                        <div class="col-1 right-border"></div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 one-block">
+                    <div class="row justify-content-center">
+                        <div class="col-1 left-border"></div>
+                        <div class="col-7 text">
+                            <p class="text-1">Доставка по Минску</p>
+                            <p class="text-2">Бесплатно</p>
+                        </div>
+                        <div class="col-1 right-border"></div>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 one-block">
+                    <div class="row justify-content-center">
+                        <div class="col-1 left-border"></div>
+                        <div class="col-7 text">
+                            <p class="text-1">Доставка по РБ</p>
+                            <p class="text-2">Курьерской службой</p>
+                        </div>
+                        <div class="col-1 right-border"></div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
-   <div class="form-block">
-      <div class="container-fluid">
-         <h2># Рассчет стоимости</h2>
+<div class="form-block">
+    <div class="container-fluid">
+        <h2># Рассчет стоимости</h2>
 
-         <form>
+        <form>
             <div class="row justify-content-around">
-               <div class="col-lg-3 col-sm-3">
-                  <div class="form-group">
-                     <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Иван Иванов">
-                     <label for="exampleInputName">Имя</label>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-4">
-                  <div class="form-group">
-                     <input type="password" class="form-control" id="exampleInputPhone" placeholder="+375 (29) 123-45-67">
-                     <label for="exampleInputPhone">Телефон</label>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-5">
-                  <div class="form-group">
-                     <input type="password" class="form-control" id="exampleInputWords" placeholder="Оставьте свой комментарий">
-                     <label for="exampleInputWords">Пожелания</label>
-                  </div>
-               </div>
+                <div class="col-lg-3 col-sm-3">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                               placeholder="Иван Иванов">
+                        <label for="exampleInputName">Имя</label>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4">
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPhone"
+                               placeholder="+375 (29) 123-45-67">
+                        <label for="exampleInputPhone">Телефон</label>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5">
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputWords"
+                               placeholder="Оставьте свой комментарий">
+                        <label for="exampleInputWords">Пожелания</label>
+                    </div>
+                </div>
             </div>
             <div class="buttons text-center">
-               <button type="submit" class="btn btn-primary">Рассчитать</button>
-               <button type="submit" class="btn btn-primary">Заказать звонок</button>
+                <button type="submit" class="btn btn-primary">Рассчитать</button>
+                <button type="submit" class="btn btn-primary">Заказать звонок</button>
             </div>
 
 
-         </form>
+        </form>
 
-      </div>
-   </div>
+    </div>
+</div>
 
 
-   <div class="footer">
-      <div class="container-fluid">
-         <div class="row">
+<div class="footer">
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-lg text-center">
-               <img src="/img/logo3.png" alt="logo">
+                <img src="/img/logo3.png" alt="logo">
             </div>
-         </div>
-         <div class="row justify-content-center info">
+        </div>
+        <div class="row justify-content-center info">
             <div class="col-lg">
-               <p class="text">
-                  Высококачественная печать на одежде в Беларуси.<br>
-                  Печать на ткани в Минске, Гродно, Бресте, Могилеве, Гомеле, Витебске.<br>
-                  Качественно и не дорого.
-               </p>
+                <p class="text">
+                    Высококачественная печать на одежде в Беларуси.<br>
+                    Печать на ткани в Минске, Гродно, Бресте, Могилеве, Гомеле, Витебске.<br>
+                    Качественно и не дорого.
+                </p>
             </div>
             <div class="col-lg phone text-center">
-               <p>По всем вопросам:</p>
-               <a href="tel:+375297619370">+375 (29) 761 - 93 - 70</a>
+                <p>По всем вопросам:</p>
+                <a href="tel:+375297619370">+375 (29) 761 - 93 - 70</a>
             </div>
             <div class="col-lg">
-               <form>
-                  <div class="form-group">
-                     <div class="row justify-content-center">
-                        <div class="col-lg  col-sm-5 col">
-                           <input type="text" class="form-control" id="exampleInputPhone2" placeholder="Телефон">
+                <form>
+                    <div class="form-group">
+                        <div class="row justify-content-center">
+                            <div class="col-lg  col-sm-5 col">
+                                <input type="text" class="form-control" id="exampleInputPhone2" placeholder="Телефон">
+                            </div>
+                            <div class="col-lg col-sm-3 col text-center">
+                                <button type="submit" class="btn btn-secondary">Перезвоните мне</button>
+                            </div>
                         </div>
-                        <div class="col-lg col-sm-3 col text-center">
-                           <button type="submit" class="btn btn-secondary">Перезвоните мне</button>
-                        </div>
-                     </div>
-                  </div>
-               </form>
+                    </div>
+                </form>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
+    </div>
+</div>
 
 
-
-   
-
-   
-
-
-
-
-
-
-
-
-
-
-   <script src="/js/jquery-3.3.1.min.js"></script>
-   <script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>

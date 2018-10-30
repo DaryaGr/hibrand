@@ -5,19 +5,23 @@
 
 body
   background-color: #ffffff
+  overflow-x: hidden
+
 .container-fluid
   padding-right: 80px
   padding-left: 80px
+
 a:hover
   text-decoration: none
 
 .btn-primary
-  background-color: rgba(255,255,255,0)
+  background-color: rgba(255, 255, 255, 0)
   border: 1px solid #C2C2C2
   border-radius: 3px
   padding: 5px 10px 5px 10px
   color: #272727
   text-transform: uppercase
+
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle
   color: #272727
   background-color: #C2C2C2
@@ -25,11 +29,13 @@ a:hover
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus
   box-shadow: 0 0 0 0
+
 .btn-primary:focus
   box-shadow: 0 0 0 0
+
 .btn-primary:hover
   border: 1px solid #272727
-  background-color: rgba(255,255,255,0)
+  background-color: rgba(255, 255, 255, 0)
   transition: ease 0.3s
   color: #272727
 
@@ -38,14 +44,14 @@ a:hover
   width: 140px
   height: 38px
   border: 2px solid #858585
-  background-color: rgba(255,255,255,0)
+  background-color: rgba(255, 255, 255, 0)
   text-align: center
   font-weight: 500
   font-size: 13px
   text-transform: uppercase
   padding-top: 7px
   &:hover
-    background-color: rgba(255,255,255,0)
+    background-color: rgba(255, 255, 255, 0)
     border: 2px solid #FFFFFF
 
 h2
@@ -79,16 +85,12 @@ h3
           padding-left: 0
           button
             width: 100px
-            background-color: rgba(255,255,255,0)
+            background-color: rgba(255, 255, 255, 0)
             border: 2px solid #858585
             color: #fff
             text-transform: uppercase
             font-size: 13px
             padding: 5px
-
-
-
-
 
 .about-us
   padding-top: 80px
@@ -98,17 +100,24 @@ h3
   img
     height: 70px
     width: auto
-  .item
+  .one-block
     position: relative
     text-align: left
     &::after
-      content: ""
+      content: " "
       position: absolute
       width: 1px
-      height: 50px
+      height: 70px
       background: #C2C2C2
       right: -0.5px
       top: 10px
+
+      @media screen and (max-width: 1200px)
+        height: 40px
+
+      @media screen and (max-width: 992px)
+        display: none
+
     &:last-child::after
       content: ""
       display: none
@@ -122,7 +131,6 @@ h3
       color: #929292
       font-weight: 500
       margin-bottom: 0
-
 
 .about-order
   margin-bottom: 60px
@@ -149,7 +157,6 @@ h3
           line-height: 27px
           margin-right: 30px
           margin-left: 30px
-
 
 .order-call
   margin-top: 90px
