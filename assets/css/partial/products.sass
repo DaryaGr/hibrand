@@ -50,7 +50,7 @@
     font-weight: 500
     margin-bottom: 0
   .add-btn
-    width: 80%
+    width: 85%
     margin: 0 auto
     padding-top: 20px
     padding-bottom: 20px
@@ -62,13 +62,13 @@
       .number
         border: 1px solid #C2C2C2
         border-radius: 3px
-        padding-right: 10px
-        padding-left: 10px
+        padding-right: 5px
+        padding-left: 5px
         height: 25px
         &:hover
           border: 1px solid #000
         a
-          font-size: 14px
+          font-size: 13px
           color: #C2C2C2
           &:hover
             color: #C2C2C2
@@ -90,30 +90,72 @@
     word-spacing: 8px
     span
       color: #C2C2C2
+    a
+      color: #272727
 
 
 .our-products
-  .order-banner
-    padding: 20px
-    height: 350px
-    border: 2px solid #D8D8D8
-    margin-bottom: 80px
-    &:hover
-      border: 2px solid #272727
-      transition: ease 0.3s
-    .first-row
-      p
-        font-weight: bold
-        color: #272727
-        text-transform: uppercase
-        margin-bottom: 5px
-      i
-        color: #B4B4B4
-        &:hover
+  .products
+    .order-banner
+      padding: 20px
+      height: auto
+      border: 2px solid #D8D8D8
+      margin-bottom: 80px
+      &:hover
+        border: 2px solid #272727
+        transition: ease 0.3s
+        height: auto
+      .first-row
+        p
+          font-weight: bold
+          color: #272727
+          text-transform: uppercase
+          margin-bottom: 5px
+        i
+          color: #B4B4B4
+          &:hover
+            color: #649154
+            transition: ease 0.3s
+        .green
           color: #649154
-          transition: 0.3s ease
-      .green
-        color: #649154
+      .hover-block
+        display: none
+        .sizes
+          padding-top: 20px
+        .color
+          padding-top: 20px
+          padding-bottom: 20px
+          font-weight: bold
+          .black
+            width: 15px
+            height: 15px
+            border-radius: 50%
+            background-color: #000
+          .blue
+            width: 15px
+            height: 15px
+            border-radius: 50%
+            background-color: #325FD1
+          .grey
+            width: 15px
+            height: 15px
+            border-radius: 50%
+            background-color: #C4C4C4
+          .white
+            width: 15px
+            height: 15px
+            border-radius: 50%
+            background-color: #fff
+            border: 1px solid #C4C4C4
+        .add-btn2
+          .btn-primary
+            background-color: #649154
+            color: #fff
+  a
+    color: #000
+  .order-banner:hover .hover-block
+    display: block
+    transition: ease 0.3s
   .btn
     text-transform: uppercase
     font-weight: bold
